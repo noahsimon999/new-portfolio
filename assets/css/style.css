@@ -1,9 +1,8 @@
+
 .navbar {
     width: 100vw;
     position: fixed;
     top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
 }
 
@@ -18,11 +17,17 @@
     border-radius:50px;
 }
 
-.first-content {
+
+.content-container {
+    transform: translatey(100px);
+}
+.chatter-content {
     border: 1px solid grey;
     border-left: 20px solid #007bff;
-    height: 300px;
-    width: 500px;
-    position: fixed;
-    top: 20%;
+
+
+}
+
+.col-6 {
+    transform: translate(50%);
 }
