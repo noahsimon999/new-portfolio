@@ -8,13 +8,19 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary nav-container">
             <a class="navbar-brand" href="#">
@@ -60,10 +66,12 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/chicago.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Living and working in Chicago, Illinois</p>
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/images/chicago.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Living and working in Chicago, Illinois</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,14 +89,16 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card chatter-content">
-                        <div class="card-body">
-                            <div class="media">
-                                <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image">
-                                <div class="media-body">
-                                    <h5 class="mt-0">Northwestern Web Development Bootcamp - 24 week part time student - [2018]</h5>
-                                    <p>I have maintained a 4.0 GPA average throughout the class. In class I helped start a study group and lead a group project. I have also learned a bunch of web development technologies that supports my UI/UX intuition.</p>
-                                    <p>#HTML5 #CSS3 #JavaScript #jQuery #Bootstrap #Express.js #React.js #Node.js #Database Theory #Bookshelf.js #MongoDB #MySQL #Command Line #Git #Python</p>
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card chatter-content">
+                            <div class="card-body">
+                                <div class="media">
+                                    <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Northwestern Web Development Bootcamp - 24 week part time student - [2018]</h5>
+                                        <p>I have maintained a 4.0 GPA average throughout the class. In class I helped start a study group and lead a group project. I have also learned a bunch of web development technologies that supports my UI/UX intuition.</p>
+                                        <p>#HTML5 #CSS3 #JavaScript #jQuery #Bootstrap #Express.js #React.js #Node.js #Database Theory #Bookshelf.js #MongoDB #MySQL #Command Line #Git #Python</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,14 +107,16 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card chatter-content">
-                        <div class="card-body">
-                            <div class="media">
-                                <img class="mr-3" src="./assets/images/groupon.jpg" alt="Generic placeholder image">
-                                <div class="media-body">
-                                    <h5 class="mt-0">Groupon Inside Sales Representative - [2018]</h5>
-                                    <p>I gained valuable sales experience working on the Groupon sales floor. Each day I would make 80-100 dials and sign people up for our discount program.</p>
-                                    <p>#inside sales #cold calling #negotiations #team building</p> 
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card chatter-content">
+                            <div class="card-body">
+                                <div class="media">
+                                    <img class="mr-3" src="./assets/images/groupon.jpg" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Groupon Inside Sales Representative - [2018]</h5>
+                                        <p>I gained valuable sales experience working on the Groupon sales floor. Each day I would make 80-100 dials and sign people up for our discount program.</p>
+                                        <p>#inside sales #cold calling #negotiations #team building</p> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -113,14 +125,16 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card chatter-content">
-                        <div class="card-body">
-                            <div class="media">
-                                <img class="mr-3" src="./assets/images/medal.jpg"  alt="Generic placeholder image">
-                                <div class="media-body">
-                                    <h5 class="mt-0">Happy Lucky Winner Founder + Sales Director - [2017 - 2018]</h5>
-                                    <p>At Happy Lucky Winner I created a product around the objective of introducing QR codes to the US market. I built a small list of clients earning each sale as I went door to door looking for a sale.</p>
-                                    <p>#outside sales #cold calling #product design #supply chain management</p> 
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card chatter-content">
+                            <div class="card-body">
+                                <div class="media">
+                                    <img class="mr-3" src="./assets/images/medal.jpg"  alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Happy Lucky Winner Founder + Sales Director - [2017 - 2018]</h5>
+                                        <p>At Happy Lucky Winner I created a product around the objective of introducing QR codes to the US market. I built a small list of clients earning each sale as I went door to door looking for a sale.</p>
+                                        <p>#outside sales #cold calling #product design #supply chain management</p> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,39 +143,45 @@
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card chatter-content">
-                        <div class="card-body">
-                            <h5 class="card-title">Private Consulting - [2015 - 2017]</h5>
-                            <p>With a wealth of experience working on startups and project initiation I have developed a specialty identifying market opportunities. Every day I see new, fresh opportunities and have the experience needed to take advantage via direct marketing campaigns, product design, or team building.</p> 
-                            <p>I help small businesses get focused, improve their situation, and develop what they need to enhance their ability to earn more revenue.</p>
-                            <p>SPRATX (Spray Paint Collective and store)</p>
-                            <p>Their core problem was focusing their vision of a spray paint collective into a sustainable business. I completed a business assessment and helped them focus their energy towards cornering the paint supply market and attracting all Austin talent to their events. They are now a leading brand in Austin.</p>    
-                            <p>Wagging Tails Pet Care</p>
-                            <p>Their core problem was making the transition from a startup to an established business. Their financials needed to be organized properly, their website was atrocious, and their price point was low. I was able to complete a business assessment for them, professionalize their finances using excel, build a new website (waggingtailsevanston.com), and increased their price point from $14 per walk to $49 per walk.</p>
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card chatter-content">
+                            <div class="card-body">
+                                <h5 class="card-title">Private Consulting - [2015 - 2017]</h5>
+                                <p>With a wealth of experience working on startups and project initiation I have developed a specialty identifying market opportunities. Every day I see new, fresh opportunities and have the experience needed to take advantage via direct marketing campaigns, product design, or team building.</p> 
+                                <p>I help small businesses get focused, improve their situation, and develop what they need to enhance their ability to earn more revenue.</p>
+                                <p>SPRATX (Spray Paint Collective and store)</p>
+                                <p>Their core problem was focusing their vision of a spray paint collective into a sustainable business. I completed a business assessment and helped them focus their energy towards cornering the paint supply market and attracting all Austin talent to their events. They are now a leading brand in Austin.</p>    
+                                <p>Wagging Tails Pet Care</p>
+                                <p>Their core problem was making the transition from a startup to an established business. Their financials needed to be organized properly, their website was atrocious, and their price point was low. I was able to complete a business assessment for them, professionalize their finances using excel, build a new website (waggingtailsevanston.com), and increased their price point from $14 per walk to $49 per walk.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card photo-content">
-                        <img class="card-img-top" src="./assets/images/austin.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Moved from Austin, Texas back home to Chicago, Illinois</p>
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card photo-content">
+                            <img class="card-img-top" src="./assets/images/austin.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Moved from Austin, Texas back home to Chicago, Illinois</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-8">
-                    <div class="card chatter-content">
-                        <div class="card-body">
-                            <div class="media">
-                                <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image">
-                                <div class="media-body">
-                                    <h5 class="mt-0">Northwestern Web Development Bootcamp - 24 week part time student - [2018]</h5>
-                                    <p>I have maintained a 4.0 GPA average throughout the class. In class I helped start a study group and lead a group project. I have also learned a bunch of web development technologies that supports my UI/UX intuition.</p>
-                                    <p>#HTML5 #CSS3 #JavaScript #jQuery #Bootstrap #Express.js #React.js #Node.js #Database Theory #Bookshelf.js #MongoDB #MySQL #Command Line #Git #Python</p>
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card chatter-content">
+                            <div class="card-body">
+                                <div class="media">
+                                    <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Northwestern Web Development Bootcamp - 24 week part time student - [2018]</h5>
+                                        <p>I have maintained a 4.0 GPA average throughout the class. In class I helped start a study group and lead a group project. I have also learned a bunch of web development technologies that supports my UI/UX intuition.</p>
+                                        <p>#HTML5 #CSS3 #JavaScript #jQuery #Bootstrap #Express.js #React.js #Node.js #Database Theory #Bookshelf.js #MongoDB #MySQL #Command Line #Git #Python</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -174,6 +194,6 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
