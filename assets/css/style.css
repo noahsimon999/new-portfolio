@@ -21,13 +21,20 @@
 .content-container {
     transform: translatey(100px);
 }
+
+.card {
+    margin: 15px 0px 15px 0px;
+}
 .chatter-content {
     border: 1px solid grey;
     border-left: 20px solid #007bff;
-
-
 }
 
-.col-6 {
-    transform: translate(50%);
+.photo-content {
+    border: 1px solid grey;
+    border-left: 20px solid #3BB273;
+}
+
+.col-8 {
+    transform: translate(25%);
 }
