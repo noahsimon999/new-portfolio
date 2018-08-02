@@ -1,3 +1,7 @@
+iframe {
+    display: block;
+}
+
 
 .navbar {
     width: 100vw;
@@ -38,4 +42,8 @@
 .media img {
     width: 150px;
 
+}
+
+.comment {
+    display: block;
 }
