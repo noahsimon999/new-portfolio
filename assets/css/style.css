@@ -1,0 +1,28 @@
+.navbar {
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.nav-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-img {
+    border-radius:50px;
+}
+
+.first-content {
+    border: 1px solid grey;
+    border-left: 20px solid #007bff;
+    height: 300px;
+    width: 500px;
+    position: fixed;
+    top: 20%;
+}
