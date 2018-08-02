@@ -1,16 +1,11 @@
 
 .navbar {
     width: 100vw;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 3px 3px 3px grey;
     position: fixed;
     top: 0px;
-    text-align: center;
-}
-
-
-.nav-container {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .navbar-img {
@@ -24,6 +19,7 @@
 
 .card {
     margin: 15px 0px 15px 0px;
+    box-shadow: 1px 1px 1px grey;
 }
 .chatter-content {
     border: 1px solid grey;
@@ -37,4 +33,9 @@
 
 .col-8 {
     transform: translate(25%);
+}
+
+.media img {
+    width: 150px;
+
 }
