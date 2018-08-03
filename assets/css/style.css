@@ -18,7 +18,7 @@ iframe {
 
 
 .content-container {
-    transform: translatey(100px);
+    transform: translateY(180px);
 }
 
 .card {
@@ -47,3 +47,8 @@ iframe {
 .comment {
     display: block;
 }
+
+.card-container img{
+    height: 136px;
+}
+
