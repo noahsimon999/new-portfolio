@@ -18,7 +18,7 @@ iframe {
 
 
 .content-container {
-    transform: translateY(100px);
+    padding-top: 100px;
 }
 
 .profile {
@@ -28,6 +28,7 @@ iframe {
 .card {
     margin: 15px 0px 15px 0px;
     box-shadow: 1px 1px 1px grey;
+    display: block;
 }
 .chatter-content {
     border: 1px solid grey;
@@ -56,3 +57,7 @@ iframe {
     height: 136px;
 }
 
+.contact-content {
+    background-color: #FCAA67;
+    color: white;
+}
