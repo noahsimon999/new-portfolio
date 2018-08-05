@@ -1,15 +1,15 @@
 iframe {
     display: block;
 }
-
+body {
+    padding-top: 100px;
+}
 
 .navbar {
     width: 100vw;
     text-align: center;
     z-index: 2;
     box-shadow: 3px 3px 3px grey;
-    position: fixed;
-    top: 0px;
 }
 
 .navbar-img {
@@ -17,9 +17,9 @@ iframe {
 }
 
 
-.content-container {
+/* .content-container {
     padding-top: 100px;
-}
+} */
 
 .profile {
     text-align: center;
@@ -66,7 +66,7 @@ iframe {
 
 /* responsive design  */
 
-@media only screen and (min-width : 340px) {
+@media only screen and (max-width : 340px) {
 .chatter-content h1 {
     font-size: 1em;
 }
