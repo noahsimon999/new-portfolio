@@ -62,3 +62,11 @@ iframe {
     background-color: #FCAA67;
     color: white;
 }
+
+
+/* responsive design  */
+
+@media only screen and (min-width : 340px) {
+.chatter-content h1 {
+    font-size: 1em;
+}
