@@ -20,9 +20,6 @@
 <body>
     <script>
         AOS.init();
-        $('.carousel').carousel({
-            interval: 50
-        })
     </script>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary nav-container">
@@ -35,8 +32,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#startContent">Work History <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#startContent">Work History</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -49,7 +46,7 @@
         </nav>
     </header>
     <section>
-        <div class="container content-container" id="startContent">
+        <div class="container content-container">
             <div class="row">
                 <div class="col-8">
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -104,11 +101,13 @@
             <div class="row">
                 <div class="col-8">
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="card chatter-content">
+                        <div class="card chatter-content" id="startContent">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/northwestern.png" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">Northwestern Web Development Bootcamp - 24 week part time student - [2018]</h5>
                                         <p>I have maintained a 4.0 GPA average throughout the class. In class I helped start a study group and lead a group project. I also learned the fundementals of web development technologies that supports my UI/UX intuition.</p>
                                         <p>#HTML5 #CSS3 #JavaScript #jQuery #Bootstrap #Express.js #React.js #Node.js #Database Theory #Bookshelf.js #MongoDB #MySQL #Command Line #Git #Python</p>
@@ -158,9 +157,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/groupon.jpg" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/groupon.jpg" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">Groupon Inside Sales Representative - [2018]</h5>
                                         <p>I gained valuable sales experience working on the Groupon sales floor. Each day I would make 80 - 100 dials and sign people up for our discount program.</p>
                                         <p>#inside sales #cold calling #negotiations #team building</p> 
@@ -176,9 +177,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/medal.jpg"  alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/medal.jpg"  alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">Happy Lucky Winner Founder + Sales Director - [2017 - 2018]</h5>
                                         <p>At Happy Lucky Winner I created a product to complete the objective of introducing QR codes to the US market. I built a small list of clients earning each sale as I went door to door.</p>
                                         <p>#outside sales #cold calling #product design #supply chain management</p> 
@@ -235,13 +238,14 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/hyperlink.jpg" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/hyperlink.jpg" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0"> &lt/hyperlink&gt Digital Magazine - [2015]</h5>
                                         <h5 class="mt-0"> Editor in Chief</h5>
                                         <p>We were the first digital magazine to launch in Austin. Our stories highlighted Austin's progressive culture and people. This was a way for us to build a positive reputation in the city and make meaningful connections. It was also good experiece managing a mid sized team and proof reading everyone's writing.</p>
-                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -254,9 +258,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/UA logo 1.jpg" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/UA logo 1.jpg" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">#UniteAustin LLC - [2014 - 2016]</h5>
                                         <p>We launched #UniteAustin to bring together the city's arts and culture leadership. The city of Austin was proud of their arts community and we worked with various small businesses and startups to promote their work and send out an inspiring message to Unite Austin.</p>
                                     </div>
@@ -295,9 +301,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/pulseatx.png" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/pulseatx.png" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">#PulseATX LLC - [2014 - 2015]</h5>
                                         <p>I brought together a team to launch an events company that focused on promoting the arts in unexpected, viral ways.</p>
                                     </div>
@@ -336,9 +344,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/Ourpangea logo big name.png" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/Ourpangea logo big name.png" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">OurPangea INC - [2010 - 2017]</h5>
                                         <p>I have experience managing a Delaware C corporation and building shareholder value. My partners included Wilson Sonsini Goodrich & Rosati General Council, Lee & Hayes, PLLC Patent Attorneys, Echales, Benjamin & Simkin, LLP Accounting, as well as senior private contractors and Indian software engineering teams. From 2008-2016 I grew my company from a community networking app for a college to a platform to connect a small city or non profit doner community. I networked with non profit executives and led marketing campaigns to unite a small city - the City of Austin, Texas USA. During this time I organized and hosted events and led guerilla marketing teams. My teams promoted parties, published a digital magazine, organized and promoted arist markets, and networked with local community leaders. We designed and tested several prototype systems and had begun development of a mobile app when funding was cut off and the company was forced to shut down operations. I also filed a patent with the USPTO that was several years into the application process. We secured a US trademark for our logo.</p>
                                         <p>Key Accomplishments:</p>
@@ -364,9 +374,11 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/collegePro.png" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                            <img class="mr-3" src="./assets/images/collegePro.png" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">College Pro Painters - [2010 - 2011]</h5>
                                         <p>My responsibility was the development of an independent franchise under the College Pro Painters brand. During my term I was tasked with market development, sales funnel generation, team recruitment and training, project management, and customer success.</p>
                                         <p>Key Accomplishments:</p>
@@ -377,7 +389,6 @@
                                             <li>Bought and maintained painting equipment</li>
                                             <li>Cold called 40-120 customers daily and marketed to the North-West Colorado Springs and Woodland Park areas</li>
                                         </ul>
-                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -390,13 +401,14 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/colorado college.png" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/colorado college.png" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">Colorado College #23 - [2007 - 2011]</h5>
                                         <h5 class="mt-0">B.A. Organizational Leadership</h5>
                                         <p>At Colorado College I learned the fundementals of economics, business management and organization, business leadership, political leadership, state craft and governance, social psychology, and generally had an awesome time. Because it's a libral arts I had a chance to study under Dennis Showalter, the nation's preminent WWII Scholar. We talked about the nature of human experience and how it impacts our developement, why nations go to war and classic military strategic thought. Outside of class I enjoyed climbing and the beauty of the mountain range.</p>
-                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -409,12 +421,13 @@
                     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div class="card chatter-content">
                             <div class="card-body">
-                                <div class="media">
-                                    <img class="mr-3" src="./assets/images/eths.jpg" alt="Generic placeholder image">
-                                    <div class="media-body">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <img class="mr-3" src="./assets/images/eths.jpg" alt="Generic placeholder image" width="150px">
+                                    </div>
+                                    <div class="col-lg-9">
                                         <h5 class="mt-0">Evanston Township Highschool - [2003 - 2007]</h5>
                                         <p>ETHS was a great place to attend school. It was racially diverse and offered a variety of specialized class such as mechanical drafting or hebrew. I was going to high school around the time Facebook started to get seriously big.</p>
-                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -498,6 +511,18 @@
                                 <h5 class="card-title">Firebase Train Scheduler</h5>
                                 <p class="card-text">The all important train schedule for morning commuters. This simple application uses HTML5, CSS3, Javascript, jQuery, & Firebase</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                        <div class="card photo-content">
+                            <img class="card-img-top" src="./assets/images/tech we know/tech we know.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">#HTM5 #CSS3 #Bootstrap #Materialize #SASS #Javascript #jQuery #Node.js #Github #Firebase #Autocad #Photoshop</p>
                             </div>
                         </div>
                     </div>
